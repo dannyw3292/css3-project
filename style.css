@@ -1,0 +1,24 @@
+.left{
+    width:220px;
+    height:175px;
+    background-color:#590800;
+    border-radius:10px 500px;
+    /*position:absolute;*/
+}
+@keyframes l-eye{
+    0%{;}
+    
+}
+
+
+.right{
+    width:220px;
+    height:175px;
+    background-color:#590800;
+    /*background-color:black;*/
+    border-radius:500px 10px;
+    transform:translate(250px, -175px);
+    
+    /*float:right;*/
+    /*position:right;*/
+}

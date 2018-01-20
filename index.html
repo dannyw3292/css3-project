@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <style type="text/css">
+  .left{
+    width:220px;
+    height:175px;
+    background-color:#590800;
+    border-radius:10px 500px;
+    position:relative;
+    box-shadow:-10px 10px 15px gray;
+    background:linear-gradient(black,#700000);
+   }
+   .right{
+    width:220px;
+    height:175px;
+    background-color:#590800;
+    /*background-color:black;*/
+    border-radius:500px 10px;
+    transform:translate(250px, -175px);
+    position:absolute;
+    box-shadow:10px 10px 15px gray;
+    background:linear-gradient(black,#700000);
+   }
+   @keyframes test2{
+     0%{background-color:#770808;}
+     15%{background-color:#4c0000;}
+     35%{background-color:#000000;}
+     55%{background-color:#560000;}
+     75%{background-color:#700000;}
+     95%{background-color:#ba0000;}
+     100%{background-color:#ff0000;}
+     
+   }
+   #leye{
+     animation: test2 4s linear 0s infinite forwards;
+     width:50px;
+     height:50px;
+     border-radius:50%;
+     background-color:black;
+     transform:translate(285px, -55px);
+   }
+   /*div{*/
+   /*    position:absolute;*/
+   /*    width:50px;*/
+   /*    height:50px;*/
+   /*    border-radius:50%;*/
+   /*    background-color:black;*/
+   /*}*/
+
+   #reye{
+    background:linear-gradient(#000000,#3d3d3d);
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    transform:translate(135px, -105px);
+   }
+   body{
+       background-image: url("sepcssproj.jpg");
+   }
+   /*div{*/
+   /*  background-color:black;*/
+   /*}*/
+
+  </style>
+  </head>
+  <body>
+    <div id="bg">
+    </div>
+    <div class="left">
+    </div>
+    <div class="right">
+    </div>
+    <div id="leye">
+    </div>
+    <div id="reye">
+    </div>
+    <div class="smile">
+    </div>
+  </body>
+</html>
